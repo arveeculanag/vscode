@@ -2,7 +2,8 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "MonoLisa",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
   "editor.smoothScrolling": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.minimap.enabled": false,
@@ -11,14 +12,20 @@
   "editor.cursorBlinking": "expand",
   "editor.bracketPairColorization.enabled": true,
 
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
   "workbench.colorTheme": "Dracula Soft",
   "workbench.startupEditor": "none",
   "workbench.editor.showTabs": "none",
   "workbench.sideBar.location": "right",
-  "workbench.statusBar.visible": false,
   "workbench.iconTheme": "simple-icons",
   "workbench.activityBar.location": "hidden",
 
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  }
 }
